@@ -1,4 +1,4 @@
-package xhd.practice;
+package xhd.practice.递归;
 
 /**
  * 给定一个二叉树，判断它是否是高度平衡的二叉树。
