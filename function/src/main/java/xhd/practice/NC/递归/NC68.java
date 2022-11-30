@@ -13,7 +13,6 @@ public class NC68 {
         int result=jumpFloor(target-1)+jumpFloor(target-2);
         return result;
     }
-
     public static void main(String[] args) {
         System.out.println(new NC68().jumpFloor(3));
     }
