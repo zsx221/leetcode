@@ -22,7 +22,13 @@ public class offer32_2 {
         node.right = new TreeNode(20);
         node.right.right = new TreeNode(7);
         node.right.left = new TreeNode(15);
-        levelOrder(node);
+        List<List<Integer>>  list = levelOrder(node);
+        for (List<Integer> integerList : list) {
+            for (Integer integer : integerList) {
+                System.out.print(integer+",");
+            }
+            System.out.println();
+        }
     }
 
     public static List<List<Integer>> levelOrder(TreeNode root) {
