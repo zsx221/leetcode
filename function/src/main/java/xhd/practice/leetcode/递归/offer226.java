@@ -1,6 +1,6 @@
 package xhd.practice.leetcode.递归;
 
-import xhd.practice.leetcode.TreeNode;
+import xhd.practice.leetcode.常规题目.TreeNode;
 
 public class offer226 {
     public TreeNode invertTree(TreeNode root) {
