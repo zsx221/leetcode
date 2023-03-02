@@ -27,7 +27,7 @@ public class offer216组合综合3 {
     }
 
     private static void backTracking(int k, int n, int startIndex) {
-        int sum = path.stream().reduce(0, (a, b) -> a + b);
+        int sum = path.stream().reduce(0, Integer::sum);
         if (path.size() == k) {//收集
             if (sum == n)
                 result.add(new ArrayList<>(path));
