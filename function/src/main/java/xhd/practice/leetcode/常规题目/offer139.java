@@ -12,17 +12,19 @@ import java.util.List;
  */
 public class offer139 {
     public static void main(String[] args) {
-     String   s = "catsandog";
+        String s = "catsandog";
 //     wordDict = ["leet", "code"
-        List<String> wordDict=new ArrayList<>();
+        List<String> wordDict = new ArrayList<>();
         wordDict.add("cats");
         wordDict.add("dog");
         wordDict.add("sand");
         wordDict.add("and");
         wordDict.add("cat");
-        wordBreak(s,wordDict);
+        wordBreak(s, wordDict);
 
     }
+
+    //
     public static boolean wordBreak(String s, List<String> wordDict) {
         for (String s1 : wordDict) {
             if (!s.contains(s1))
